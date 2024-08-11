@@ -43,7 +43,7 @@ body {
 
 /* Background */
 .header{
-  min-height: 100vh;
+  min-height: 150vh;
   width: 100%;
   background-image: linear-gradient(rgba(0, 10, 6, 0.7), rgba(2, 34, 21, 0.7)), url(images/DALL·E\ 2024-08-11\ 21.17.35\ -\ A\ modern\ office\ space\ designed\ to\ align\ with\ Saudi\ Vision\ 2030.\ The\ office\ features\ sleek\,\ floating\ desks\ made\ of\ polished\ wood\ suspended\ by\ minimalis.webp);
   background-position: center;
