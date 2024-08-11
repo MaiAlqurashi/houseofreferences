@@ -45,6 +45,7 @@ body {
 .header{
   min-height: 100vh;
   width: 100%;
+  height: fit-content;
   background-image: linear-gradient(rgba(0, 10, 6, 0.7), rgba(2, 34, 21, 0.7)), url(images/DALLE2024-08-1121.17.35-AmodernofficespacedesignedtoalignwithSaudiVision2030.Theofficefeaturessleekfloatingdesksmadeofpolishedwoodsuspendedbyminimalis-ezgif.com-crop\ \(1\).jpg);
   background-position: center;
   background-size: cover;
