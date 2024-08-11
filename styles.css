@@ -45,7 +45,7 @@ body {
 .header{
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 10, 6, 0.7), rgba(2, 34, 21, 0.7)), url(images/backgroundAI.jpeg);
+  background-image: linear-gradient(rgba(0, 10, 6, 0.7), rgba(2, 34, 21, 0.7)), url(images/DALL·E\ 2024-08-11\ 21.01.50\ -\ A\ modern\ office\ space\ designed\ for\ lawyers.\ The\ office\ features\ sleek\,\ contemporary\ furniture\,\ including\ large\ wooden\ desks\ with\ leather\ chairs.\ The\ r.webp);
   background-position: center;
   background-size: cover;
   position: relative;
