@@ -50,7 +50,6 @@ body {
   background-position: center;
   background-size: cover;
   position: relative;
-  
 }
 
 #logoImage{
@@ -111,8 +110,16 @@ max-height: 60px;
 }
 
 nav.scrolled {
-background-color: #7d7924; /* Change to red */
+background-color: #7d7924; 
 height: 40px; /* Reduce height */
+}
+
+/*media tryyyyyyyyyyy*/
+@media(max-width: 700px) {
+  .nav-item a{
+    font-size: 10px;
+  }
+  
 }
 
 #consultationBottom{
