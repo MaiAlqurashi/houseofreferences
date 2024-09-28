@@ -76,31 +76,35 @@ div #slogan{
 }
 
 nav {
-display: flex;
-justify-content: space-between;
-align-items: center;
+
+
+
 background-color: #18392B;
 color: #fff;
 padding: 20px 20px;
-height: 70px;
+
 transition: background-color 0.7s, height 0.7s;
-position: fixed;
-top: 0;
-width: 100%;
-z-index: 1000;
+
+
+
 font-family: 'Cairo', sans-serif;
 }
 
-.nav-item {
-flex: 1;
-text-align: center;
+nav ul{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.nav-item a {
+
+nav a {
 color: #fff;
 text-decoration: none;
 font-size: 16px;
 font-weight: bold;
+display: flex;
 font-family: 'Cairo', sans-serif;
 }
 
@@ -113,13 +117,7 @@ background-color: #7d7924;
 height: 40px; /* Reduce height */
 }
 
-/*media tryyyyyyyyyyy*/
-@media(max-width: 700px) {
-  .nav-item a{
-    font-size: 10px;
-  }
-  
-}
+
 
 #consultationBottom{
   width: 150px;
