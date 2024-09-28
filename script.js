@@ -75,3 +75,10 @@ document.addEventListener("DOMContentLoaded", function() {
   carousel.addEventListener("mousemove", dragging);
   document.addEventListener("mouseup", dragStop);
   carousel.addEventListener("scroll", infiniteScroll);
+
+  function toggleMenu() {
+    const navLinks = document.getElementById("nav-links");
+    const hamburger = document.getElementById("hamburger");
+    navLinks.classList.toggle("active");
+    hamburger.classList.toggle("active");
+}
