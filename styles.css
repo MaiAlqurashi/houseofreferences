@@ -76,102 +76,41 @@ div #slogan{
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #18392B;
-  color: #fff;
-  padding: 20px 20px;
-  height: 70px;
-  transition: background-color 0.7s, height 0.7s;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-  font-family: 'Cairo', sans-serif;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #18392B;
+color: #fff;
+padding: 20px 20px;
+height: 70px;
+transition: background-color 0.7s, height 0.7s;
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 1000;
+font-family: 'Cairo', sans-serif;
 }
 
 .nav-item {
-  flex: 1;
-  text-align: center;
+flex: 1;
+text-align: center;
 }
 
 .nav-item a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: bold;
+color: #fff;
+text-decoration: none;
+font-size: 16px;
+font-weight: bold;
+font-family: 'Cairo', sans-serif;
 }
 
 .nav-item img {
-  max-height: 60px;
+max-height: 60px;
 }
 
 nav.scrolled {
-  background-color: #7d7924;
-  height: 40px;
-}
-
-/* Hamburger Menu Styling */
-.hamburger-menu {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-}
-
-.hamburger-menu span {
-  height: 3px;
-  width: 25px;
-  background-color: white;
-  margin: 4px;
-  transition: 0.4s;
-}
-
-#nav-links {
-  display: flex;
-}
-
-@media (max-width: 768px) {
-  nav {
-      justify-content: space-between;
-  }
-  
-  #nav-links {
-      display: none;
-      flex-direction: column;
-      position: absolute;
-      top: 70px;
-      right: 0;
-      background-color: #18392B;
-      width: 100%;
-      text-align: center;
-  }
-
-  .nav-item {
-      padding: 10px;
-      text-align: center;
-  }
-
-  .hamburger-menu {
-      display: flex;
-  }
-
-  .nav-links.active {
-      display: flex;
-  }
-}
-
-/* Menu Transition on Click */
-.hamburger-menu.active span:nth-child(1) {
-  transform: rotate(-45deg) translate(-5px, 6px);
-}
-
-.hamburger-menu.active span:nth-child(2) {
-  opacity: 0;
-}
-
-.hamburger-menu.active span:nth-child(3) {
-  transform: rotate(45deg) translate(-5px, -6px);
+background-color: #7d7924; 
+height: 40px; /* Reduce height */
 }
 
 /*media tryyyyyyyyyyy*/
