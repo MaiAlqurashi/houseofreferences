@@ -760,6 +760,9 @@ background: #18392B;
 font-family: 'Cairo', sans-serif;
 
 
+
+}
+
 input[type="file"] {
   border: none;
   background-color: #F0F1F8;
@@ -767,7 +770,6 @@ input[type="file"] {
   border-radius: 6px;
   width: 100%;
   cursor: pointer;
-
 }
 @media (max-width: 950px) {
 .container{
