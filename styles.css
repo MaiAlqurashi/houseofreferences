@@ -759,6 +759,15 @@ font-family: 'Cairo', sans-serif;
 background: #18392B;
 font-family: 'Cairo', sans-serif;
 
+
+input[type="file"] {
+  border: none;
+  background-color: #F0F1F8;
+  padding: 10px;
+  border-radius: 6px;
+  width: 100%;
+  cursor: pointer;
+
 }
 @media (max-width: 950px) {
 .container{
