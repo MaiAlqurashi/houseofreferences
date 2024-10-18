@@ -26,13 +26,26 @@
   <!-- Navigation Bar -->
   <header class="header">
     <nav id="navbar">
-      <div class="nav-item"><a href="#">تواصل معنا</a></div>
-      <div class="nav-item"><a href="#">التوظيف</a></div>
-      <div class="nav-item"><a href="services.html">خدماتنا</a></div>
-      <div class="nav-item"><img src="images/newLogo.png" alt="Logo" id="logoImage"></div>
-      <div class="nav-item"><a href="#">حجز استشارة قانونية</a></div>
-      <div class="nav-item"><a href="aboutus.html">من نحن</a></div>
-      <div class="nav-item"><a href="index.html">الرئيسية</a></div>
+      <ul class="side-bar" dir="rtl">
+        <!--<li class="nav-item"><img src="images/newLogo.png" alt="Logo" id="logoImage"></li>-->
+        <li onclick=hideSideBar() class="nav-item"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+        <li class="nav-item"><a href="index.html">الرئيسية</a></li>
+        <li class="nav-item"><a href="aboutus.html">من نحن</a></li>
+        <li class="nav-item"><a href="#">حجز استشارة قانونية</a></li>
+        <li class="nav-item"><a href="services.html">خدماتنا</a></li>
+        <li class="nav-item"><a href="joinus.html">التوظيف</a></li>
+        <li class="nav-item"><a href="contactus.html">تواصل معنا</a></li>
+      </ul>
+      <ul>
+      <li class="hideOnMobile"><a href="contactus.html">تواصل معنا</a></li>
+      <li class="hideOnMobile"><a href="joinus.html">التوظيف</a></li>
+      <li class="hideOnMobile"><a href="services.html">خدماتنا</a></li>
+      <li class="nav-item"><img src="images/newLogo.png" alt="Logo" id="logoImage"></li>
+      <li class="hideOnMobile"><a href="#">حجز استشارة قانونية</a></li>
+      <li class="hideOnMobile"><a href="aboutus.html">من نحن</a></li>
+      <li class="hideOnMobile"><a href="index.html">الرئيسية</a></li>
+      <li onclick=showSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+    </ul>
     </nav>
 
     <div class="text-box">
@@ -45,21 +58,33 @@
 
     <!-- ---------------------------- -->
   <!-- Main Content -->
-  <div class="container">
-    <h1 class="title">نبذة عن الشركة</h1>
-    <p><img src="images/underline-Photoroom.png" alt="Picture" id="underline"></p>
-    <div class="content">
+  <div class="container3">
+    <h1 class="title2">نبذة عن الشركة</h1>
+    <p><img src="images/underline-Photoroom.png" alt="Picture" id="underline"></p> 
+</div>
+     <!--<img src="images/underline-Photoroom.png" alt="Picture" id="underline">  -->
+    <div class="content"> 
       <div class="image-container">
-        <img src="images/initialBackground.png" alt="Picture" class="image">
-      </div>
-      <div class="text-container" dir="rtl">
-        <p class="paragraph" id="para">
-          <!-- Your paragraph content here (27 lines) -->
-          شركة بيت المراجع للمحاماة والاستشارات القانونية تُعد واحدة من الشركات الرائدة في مجال المحاماة بالمملكة العربية السعودية، وهي معتمدة من قبل مكتب تحقيق الرؤية 2030. يتميز فريق العمل بتنوعه واحترافيته، حيث يقدم خدمات قانونية عالية الجودة للشركات الخاصة والقطاعات الحكومية. يمتلك المكتب خبرة واسعة في مجالات متنوعة مثل صياغة القوانين والأنظمة، وتطوير أنظمة الحوكمة للشركات، وصياغة العقود المحلية والدولية في مجالات مثل البترول والغاز، والبنوك والاستثمار، وغيرها. الشركة تتمتع بسمعة ممتازة بين العملاء، الذين يثنون على جودة الخدمات والالتزام بالقيم المهنية، بالإضافة إلى السرعة في إنجاز المشاريع القانونية.
-        </p>
+        <section class="about">
+          <div class="about-image">
+            <img src="images/initialBackground.png" alt="Picture" class="image">
+          </div>
+          <div class="about-content">
+            <p class="paragraph" id="para" dir="rtl">
+                      <!-- Your paragraph content here (27 lines) -->
+                      شركة بيت المراجع للمحاماة والاستشارات القانونية تُعد من الشركات القانونية البارزة في المملكة العربية السعودية، حيث تلعب دورًا حيويًا في تحقيق رؤية 2030. يضم المكتب فريقًا من المحامين والخبراء القانونيين ذوي الخبرة العالية، مما يتيح له تقديم استشارات قانونية شاملة ومخصصة، تلبي احتياجات عملائه من مختلف الصناعات والقطاعات.
+
+                      تتميز الشركة بخبرتها الواسعة في مجالات متعددة، تشمل صياغة التشريعات، وتطوير نظم الحوكمة، وصياغة العقود المعقدة على المستويين المحلي والدولي، في قطاعات حيوية مثل الطاقة، والتمويل، والاستثمار. ما يميز شركة بيت المراجع هو نهجها المبتكر والموجه نحو الحلول، حيث تجمع بين المعرفة العميقة بالسوق المحلية والفهم المتقدم للمعايير الدولية.
+
+                    </p>
+
+          </div>
+
+
+        </section>
+        
       </div>
     </div>
-  </div>
 
   <div class="container2">
     <h1 class="title2">شهادات الشركة</h1>
@@ -99,44 +124,44 @@
     <i id="left" class="fa-solid fa-angle-left"></i>
     <ul class="carousel">
       <li class="card">
-        <div class="img"><img src="images/WhatsApp Image 2024-05-29 at 6.42.12 PM.jpeg" alt="img"></div>
-        <h2>عبدالرحمن الوقداني</h2>
-        <span>المدير العام</span>
+        <div class="img"><img src="images/profileImage.png" alt="img" draggable="false"></div>
+        <h2>Name</h2>
+        <span>Job</span>
       </li>
       <li class="card">
         <div class="img"><img src="images/profileImage.png" alt="img" draggable="false"></div>
-        <h2>محمد عبدالرحمن الغامدي</h2>
-        <span>محامي ومستشار قانوني</span>
+        <h2>Name</h2>
+        <span>Job</span>
       </li>
       <li class="card">
         <div class="img"><img src="images/profileImage.png" alt="img" draggable="false"></div>
-        <h2>عبدالله سمير دخيل</h2>
-        <span>محامي ومستشار قانوني</span>
+        <h2>Name</h2>
+        <span>Job</span>
       </li>
       <li class="card">
         <div class="img"><img src="images/profileImage.png" alt="img" draggable="false"></div>
-        <h2>علي الحربي</h2>
-        <span>مستشار قانوني</span>
+        <h2>Name</h2>
+        <span>Job</span>
       </li>
       <li class="card">
         <div class="img"><img src="images/profileImage.png" alt="img" draggable="false"></div>
-        <h2>ايمن المعلوي</h2>
-        <span>مستشار قانوني</span>
-      </li>
-      <li class="card">
-        <div class="img"><img src="images/womanProfile.png" alt="img" draggable="false"></div>
-        <h2>ريناد فاضل</h2>
-        <span>مستشار قانوني</span>
+        <h2>Name</h2>
+        <span>Job</span>
       </li>
       <li class="card">
         <div class="img"><img src="images/profileImage.png" alt="img" draggable="false"></div>
-        <h2>موسى المسعري</h2>
-        <span>سكرتير قانوني</span>
+        <h2>Name</h2>
+        <span>Job</span>
       </li>
       <li class="card">
         <div class="img"><img src="images/profileImage.png" alt="img" draggable="false"></div>
-        <h2>هيثم جميل النظيف</h2>
-        <span>محاسب زكاة وضريبة</span>
+        <h2>Name</h2>
+        <span>Job</span>
+      </li>
+      <li class="card">
+        <div class="img"><img src="images/profileImage.png" alt="img" draggable="false"></div>
+        <h2>Name</h2>
+        <span>Job</span>
       </li>
     </ul>
     <i id="right" class="fa-solid fa-angle-right"></i>
@@ -154,8 +179,8 @@
           <a href=""><i class="fa-brands fa-twitter"></i></a>
       </div>
       <div class="footerNav">
-          <ul><li><a href="">تواصل معنا</a></li>
-              <li><a href="">التوظيف</a></li>
+          <ul><li><a href="contactus.html">تواصل معنا</a></li>
+              <li><a href="joinus.html">التوظيف</a></li>
               <li><a href="services.html">خدماتنا</a></li>
               <li><a href="">حجز استشارة قانونية</a></li>
               <li><a href="aboutus.html">من نحن</a></li>

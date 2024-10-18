@@ -26,13 +26,26 @@
   <!-- Navigation Bar -->
   <header class="header">
     <nav id="navbar">
-      <div class="nav-item"><a href="contactus.html">تواصل معنا</a></div>
-      <div class="nav-item"><a href="joinus.html">التوظيف</a></div>
-      <div class="nav-item"><a href="services.html">خدماتنا</a></div>
-      <div class="nav-item"><img src="images/newLogo.png" alt="Logo" id="logoImage"></div>
-      <div class="nav-item"><a href="#">حجز استشارة قانونية</a></div>
-      <div class="nav-item"><a href="aboutus.html">من نحن</a></div>
-      <div class="nav-item"><a href="index.html">الرئيسية</a></div>
+      <ul class="side-bar" dir="rtl">
+        <!--<li class="nav-item"><img src="images/newLogo.png" alt="Logo" id="logoImage"></li>-->
+        <li onclick=hideSideBar() class="nav-item"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+        <li class="nav-item"><a href="index.html">الرئيسية</a></li>
+        <li class="nav-item"><a href="aboutus.html">من نحن</a></li>
+        <li class="nav-item"><a href="#">حجز استشارة قانونية</a></li>
+        <li class="nav-item"><a href="services.html">خدماتنا</a></li>
+        <li class="nav-item"><a href="joinus.html">التوظيف</a></li>
+        <li class="nav-item"><a href="contactus.html">تواصل معنا</a></li>
+      </ul>
+      <ul>
+      <li class="hideOnMobile"><a href="contactus.html">تواصل معنا</a></li>
+      <li class="hideOnMobile"><a href="joinus.html">التوظيف</a></li>
+      <li class="hideOnMobile"><a href="services.html">خدماتنا</a></li>
+      <li class="nav-item"><img src="images/newLogo.png" alt="Logo" id="logoImage"></li>
+      <li class="hideOnMobile"><a href="#">حجز استشارة قانونية</a></li>
+      <li class="hideOnMobile"><a href="aboutus.html">من نحن</a></li>
+      <li class="hideOnMobile"><a href="index.html">الرئيسية</a></li>
+      <li onclick=showSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+    </ul>
     </nav>
 
     <div class="text-box">
@@ -45,7 +58,7 @@
 
   
 
-<div class="container1">
+<div class="container3">
   <h1 class="title">تواصل معنا</h1>
     <p><img src="images/underline-Photoroom.png" alt="Picture" id="underline"></p>
   <div class="content">
@@ -75,7 +88,7 @@
         <input type="text" placeholder="الايميل">
       </div>
       <div class="input-box message-box">
-        <input type="textarea" placeholder="الرسالة">
+        <input type="textarea" placeholder="الرسالة" dir="rtl">
       </div>
       <div class="button">
         <input type="button" value="ارسال" >
