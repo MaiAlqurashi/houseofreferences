@@ -17,7 +17,7 @@
   justify-content: center;
   align-items: center;
   opacity: 1;
-  transition: opacity 0.1s ease-in-out; /* Adjust the duration as needed */
+  transition: opacity 0.0s ease-in-out; /* Adjust the duration as needed */
   z-index: 9999;
 }
 #splash-screen.hide {
@@ -150,10 +150,10 @@ svg{
 
 @media(max-width: 1000px){
   .side-bar{
-    width: 100%;
+    width: 50%;
   }
   nav a{
-    font-size: 24px;
+    font-size: 36px;
   }
 }
 
