@@ -169,7 +169,9 @@ nav.scrolled {
   .hideOnMobile{
     display: none;
   }
-
+  .side-bar{
+    width: 50%;
+  }
 }
 
 @media(max-width: 1000px){
