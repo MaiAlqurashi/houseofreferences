@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
   var splashScreen = document.getElementById("splash-screen");
   setTimeout(function() {
     splashScreen.classList.add("hide");
-  }, 2000); // Hide splash screen after 3 seconds (adjust as needed)
+  }, 1000); // Hide splash screen after 3 seconds (adjust as needed)
 });
 
 
