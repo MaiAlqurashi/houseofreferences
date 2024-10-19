@@ -189,7 +189,7 @@ nav.scrolled {
   }
   nav{
     padding: 30px 30px;
-    height: 60px;
+    height: 80px;
   }
 
   svg{
@@ -197,7 +197,7 @@ nav.scrolled {
     width: 50px;
   }
   nav.scrolled {
-    height: 50px; /* Reduce height */
+    height: 70px; /* Reduce height */
     }
 
     .text-box img{
