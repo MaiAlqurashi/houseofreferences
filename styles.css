@@ -155,7 +155,7 @@ nav.scrolled {
 
 @media(max-width: 1000px){
   .side-bar{
-    width: 50%;
+    width: 100%;
   }
   nav a{
     font-size: 50px;
