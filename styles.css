@@ -169,7 +169,7 @@ nav.scrolled {
   }
   nav{
     padding: 30px 30px;
-    height: 100px;
+    height: 60px;
   }
 
   svg{
@@ -177,7 +177,7 @@ nav.scrolled {
     width: 50px;
   }
   nav.scrolled {
-    height: 200px; /* Reduce height */
+    height: 50px; /* Reduce height */
     }
 
     .text-box img{
@@ -187,6 +187,11 @@ nav.scrolled {
     
     div #slogan{
       font-size: 20px;
+    }
+    .container4 .teamDescription{
+      padding-left: 30px;
+      padding-right: 30px;
+      
     }
   
 }
